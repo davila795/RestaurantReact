@@ -1,7 +1,7 @@
 import { API, Reserva } from "../types/platos";
-const TOKEN = process.env.TOKEN;
-const URL = process.env.URL;
-const RESERVA_URL = process.env.RESERVA_URL;
+const TOKEN = process.env.REACT_APP_API_TOKEN;
+const URL = process.env.REACT_APP_API_URL;
+const RESERVA_URL = process.env.REACT_APP_API_RESERVA_URL;
 
 export const getPlatos = async () => {
   try {
