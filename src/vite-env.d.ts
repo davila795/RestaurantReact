@@ -1,8 +1,8 @@
 /// <reference types="vite/client" />
 declare namespace NodeJS {
   interface ProcessEnv {
-    TOKEN: string;
-    RESERVA_URL: string;
-    URL: string;
+    REACT_APP_API_URL: string;
+    REACT_APP_API_TOKEN: string;
+    REACT_APP_API_URL: string;
   }
 }
