@@ -2,13 +2,6 @@ import { API, Reserva } from "../types/platos";
 const TOKEN = import.meta.env.VITE_API_TOKEN;
 const URL = import.meta.env.VITE_API_URL;
 const RESERVA_URL = import.meta.env.VITE_API_RESERVA_URL;
-console.log(URL);
-// console.log(import.meta.env.VITE_API_URL);
-// const TOKEN = "5w3O3040E65QdSWqG7tO4etXSQEwmg9zvYGyNG2p";
-// const URL =
-//   "https://app.nocodb.com/api/v2/tables/mwqj4pt7jwv9ho5/records?sort=Nombre";
-// const RESERVA_URL =
-//   "https://app.nocodb.com/api/v2/tables/mc820n06lkh0ur4/records";
 
 export const getPlatos = async () => {
   try {
